@@ -1,14 +1,14 @@
 //
-//  DosController.swift
+//  DiezController.swift
 //  Pantallas
 //
-//  Created by Alumno on 9/19/22.
+//  Created by Alumno on 9/21/22.
 //  Copyright © 2022 Alumno. All rights reserved.
 //
 
 import UIKit
 
-class DosController: UIViewController {
+class DiezController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

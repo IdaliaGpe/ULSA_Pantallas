@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D01CB0528DB583F0031A0AC /* CuatroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01CB0428DB583F0031A0AC /* CuatroController.swift */; };
+		3D01CB0728DB5CB50031A0AC /* CincoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01CB0628DB5CB50031A0AC /* CincoController.swift */; };
+		3D01CB0928DB5E090031A0AC /* SeisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01CB0828DB5E090031A0AC /* SeisController.swift */; };
+		3D01CB0B28DB5ECC0031A0AC /* SieteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01CB0A28DB5ECC0031A0AC /* SieteController.swift */; };
+		3D01CB0D28DB5F6D0031A0AC /* OchoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01CB0C28DB5F6D0031A0AC /* OchoController.swift */; };
+		3D01CB0F28DB61340031A0AC /* NueveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01CB0E28DB61340031A0AC /* NueveController.swift */; };
+		3D01CB1128DB615F0031A0AC /* DiezController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01CB1028DB615F0031A0AC /* DiezController.swift */; };
 		3DCBB92228D8C49700192EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBB92128D8C49700192EFD /* AppDelegate.swift */; };
 		3DCBB92428D8C49700192EFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBB92328D8C49700192EFD /* SceneDelegate.swift */; };
 		3DCBB92628D8C49700192EFD /* UnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBB92528D8C49700192EFD /* UnoController.swift */; };
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D01CB0428DB583F0031A0AC /* CuatroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuatroController.swift; sourceTree = "<group>"; };
+		3D01CB0628DB5CB50031A0AC /* CincoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CincoController.swift; sourceTree = "<group>"; };
+		3D01CB0828DB5E090031A0AC /* SeisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeisController.swift; sourceTree = "<group>"; };
+		3D01CB0A28DB5ECC0031A0AC /* SieteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SieteController.swift; sourceTree = "<group>"; };
+		3D01CB0C28DB5F6D0031A0AC /* OchoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OchoController.swift; sourceTree = "<group>"; };
+		3D01CB0E28DB61340031A0AC /* NueveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NueveController.swift; sourceTree = "<group>"; };
+		3D01CB1028DB615F0031A0AC /* DiezController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiezController.swift; sourceTree = "<group>"; };
 		3DCBB91E28D8C49700192EFD /* Pantallas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pantallas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCBB92128D8C49700192EFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCBB92328D8C49700192EFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,11 +121,18 @@
 				3DCBB92328D8C49700192EFD /* SceneDelegate.swift */,
 				3DCBB92528D8C49700192EFD /* UnoController.swift */,
 				3DCBB95128D8C54A00192EFD /* DosController.swift */,
+				3DCBB95328D8C6FB00192EFD /* TresController.swift */,
+				3D01CB0428DB583F0031A0AC /* CuatroController.swift */,
+				3D01CB0628DB5CB50031A0AC /* CincoController.swift */,
+				3D01CB0828DB5E090031A0AC /* SeisController.swift */,
+				3D01CB0A28DB5ECC0031A0AC /* SieteController.swift */,
+				3D01CB0C28DB5F6D0031A0AC /* OchoController.swift */,
+				3D01CB0E28DB61340031A0AC /* NueveController.swift */,
+				3D01CB1028DB615F0031A0AC /* DiezController.swift */,
 				3DCBB92728D8C49700192EFD /* Main.storyboard */,
 				3DCBB92A28D8C4A100192EFD /* Assets.xcassets */,
 				3DCBB92C28D8C4A100192EFD /* LaunchScreen.storyboard */,
 				3DCBB92F28D8C4A100192EFD /* Info.plist */,
-				3DCBB95328D8C6FB00192EFD /* TresController.swift */,
 			);
 			path = Pantallas;
 			sourceTree = "<group>";
@@ -265,11 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D01CB0B28DB5ECC0031A0AC /* SieteController.swift in Sources */,
+				3D01CB0F28DB61340031A0AC /* NueveController.swift in Sources */,
 				3DCBB95228D8C54A00192EFD /* DosController.swift in Sources */,
+				3D01CB0528DB583F0031A0AC /* CuatroController.swift in Sources */,
+				3D01CB0728DB5CB50031A0AC /* CincoController.swift in Sources */,
 				3DCBB95428D8C6FB00192EFD /* TresController.swift in Sources */,
 				3DCBB92628D8C49700192EFD /* UnoController.swift in Sources */,
+				3D01CB0D28DB5F6D0031A0AC /* OchoController.swift in Sources */,
 				3DCBB92228D8C49700192EFD /* AppDelegate.swift in Sources */,
 				3DCBB92428D8C49700192EFD /* SceneDelegate.swift in Sources */,
+				3D01CB0928DB5E090031A0AC /* SeisController.swift in Sources */,
+				3D01CB1128DB615F0031A0AC /* DiezController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

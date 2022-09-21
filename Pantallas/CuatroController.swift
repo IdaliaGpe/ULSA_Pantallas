@@ -1,14 +1,14 @@
 //
-//  DosController.swift
+//  CuatroController.swift
 //  Pantallas
 //
-//  Created by Alumno on 9/19/22.
+//  Created by Alumno on 9/21/22.
 //  Copyright © 2022 Alumno. All rights reserved.
 //
 
 import UIKit
 
-class DosController: UIViewController {
+class CuatroController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -16,4 +16,5 @@ class DosController: UIViewController {
     @IBAction func doTapVolver(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    
 }

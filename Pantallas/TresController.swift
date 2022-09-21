@@ -12,4 +12,8 @@ class TresController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func doTapVolver(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
